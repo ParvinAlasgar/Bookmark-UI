@@ -1,2 +1,1 @@
-# Bookmark-UI
-A simple Bookmark UI 
+![](./src/images/screenshot.png);

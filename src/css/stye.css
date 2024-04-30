@@ -1,0 +1,47 @@
+/* ====== Body ====== */
+body {
+  background-color: #1b1b1b;
+}
+
+/* ====== End Body ======*/
+/* ====== App ======*/
+#app {
+  background-color: #000;
+  margin: 150px auto !important;
+}
+#app a {
+  transition: opacity 0.6s;
+}
+#app a:hover {
+  opacity: 100 !important;
+}
+#app .sidebar img {
+  width: 70px;
+}
+#app .sidebar li {
+  transition: transform 0.6s;
+}
+#app .sidebar li:hover {
+  transform: translateX(15px);
+}
+#app .main .main-header img {
+  width: 36px;
+  height: 36px;
+}
+#app .main .main-header i {
+  transition: transform 0.6s;
+}
+#app .main .main-header i:hover {
+  transform: rotate(45deg);
+}
+#app .main .main-content img {
+  width: 250px;
+  height: 200px;
+  transition: transform 0.6s ease-in-out;
+}
+#app .main .main-content img:hover {
+  transform: scale(1.1);
+  transform: rotateY(180deg);
+}
+
+/* ====== End App ======*//*# sourceMappingURL=stye.css.map */
